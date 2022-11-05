@@ -23,12 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world - overworld",
-        "world - nether"
+        "world - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1667679265",
+        "cacheTag": "1667680418",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +49,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world - overworld",
-            "last_rendertime": 1667678948,
+            "last_rendertime": 1667679954,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -78,7 +77,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world - overworld",
-            "last_rendertime": 1667678948,
+            "last_rendertime": 1667679954,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -98,15 +97,15 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Survival Nether",
+            "name": "Survival Daytime Alt",
             "zoomLevels": 6,
             "defaultZoom": 5,
             "maxZoom": 6,
-            "path": "survivalnether",
+            "path": "survivaldaysouth",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world - nether",
-            "last_rendertime": 1667678949,
+            "world": "world - overworld",
+            "last_rendertime": 1667679954,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -118,8 +117,12 @@ var overviewerConfig = {
             ],
             "lastrenderversion": 2,
             "minZoom": 0,
-            "spawn": false,
-            "north_direction": 0
+            "spawn": [
+                0,
+                108,
+                0
+            ],
+            "north_direction": 2
         }
     ]
 };
