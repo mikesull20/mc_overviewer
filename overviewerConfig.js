@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world - overworld"
+        "world - overworld",
+        "world - nether"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1667675572",
+        "cacheTag": "1667679265",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -49,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world - overworld",
-            "last_rendertime": 1667673361,
+            "last_rendertime": 1667678948,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -77,7 +78,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world - overworld",
-            "last_rendertime": 1667673361,
+            "last_rendertime": 1667678948,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -94,6 +95,30 @@ var overviewerConfig = {
                 108,
                 0
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "Survival Nether",
+            "zoomLevels": 6,
+            "defaultZoom": 5,
+            "maxZoom": 6,
+            "path": "survivalnether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "world - nether",
+            "last_rendertime": 1667678949,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                108,
+                0
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
