@@ -1,4 +1,4 @@
-#bash
+#!/bin/sh
 docker run --rm -v /var/lib/docker/volumes/minecraftdata/_data/:/tmp/server/:ro -v /var/lib/docker/volumes/minecraftdata/_data/scripts/:/tmp/config/:ro -v /var/lib/docker/volumes/minecraftdata/_data/Overviewer/:/tmp/export/:rw -it marctv/minecraft-overviewer
 git -C /var/lib/docker/volumes/minecraftdata/_data/Overviewer/ init
 git -C /var/lib/docker/volumes/minecraftdata/_data/Overviewer/ reset
