@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1670919284",
+        "cacheTag": "1670964151",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -66,7 +66,9 @@ var overviewerConfig = {
                 170,
                 -48
             ],
-            "north_direction": 0
+            "north_direction": 0,
+            "render_in_progress": true,
+            "forcerendertime": 1670964134
         },
         {
             "name": "Survival Nighttime",
@@ -94,7 +96,9 @@ var overviewerConfig = {
                 170,
                 -48
             ],
-            "north_direction": 0
+            "north_direction": 0,
+            "render_in_progress": true,
+            "forcerendertime": 1670964134
         },
         {
             "name": "Survival Daytime Alt",
@@ -122,7 +126,9 @@ var overviewerConfig = {
                 170,
                 -48
             ],
-            "north_direction": 2
+            "north_direction": 2,
+            "render_in_progress": true,
+            "forcerendertime": 1670964148
         }
     ]
 };
