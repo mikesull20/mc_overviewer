@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1670985088",
+        "cacheTag": "1670987202",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -49,7 +49,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world - overworld",
-            "last_rendertime": 1670908998,
+            "last_rendertime": 1670986002,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -66,9 +66,7 @@ var overviewerConfig = {
                 170,
                 -48
             ],
-            "north_direction": 0,
-            "render_in_progress": true,
-            "forcerendertime": 1670964134
+            "north_direction": 0
         },
         {
             "name": "Survival Nighttime",
@@ -79,7 +77,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world - overworld",
-            "last_rendertime": 1670908998,
+            "last_rendertime": 1670986002,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -96,9 +94,7 @@ var overviewerConfig = {
                 170,
                 -48
             ],
-            "north_direction": 0,
-            "render_in_progress": true,
-            "forcerendertime": 1670964134
+            "north_direction": 0
         },
         {
             "name": "Survival Daytime Alt",
@@ -109,7 +105,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "world - overworld",
-            "last_rendertime": 1670908998,
+            "last_rendertime": 1670986002,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -126,9 +122,7 @@ var overviewerConfig = {
                 170,
                 -48
             ],
-            "north_direction": 2,
-            "render_in_progress": true,
-            "forcerendertime": 1670964148
+            "north_direction": 2
         }
     ]
 };
